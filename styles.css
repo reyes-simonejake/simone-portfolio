@@ -52,6 +52,7 @@ li a:hover {
     transition: background-color 0.3s ease-in-out;
     border-radius: 10px;
 }
+
 .nav-toggle {
     display: none;
 }
@@ -638,6 +639,7 @@ p {
     width: 100%;
     text-align: center;
 }
+
 /* Mobile Small */
 @media (max-width: 320px) {
     /* Nav Section */
@@ -661,32 +663,23 @@ p {
         transition: max-height 0.5s ease;
     }
 
-    /* The checkbox hack - when checked, display menu */
     .nav-toggle:checked ~ .nav-links {
         max-height: 500px;
     }
 
-    .nav-links {
-        display: none;
-    }
-
-    .nav-toggle:checked ~ .nav-links {
-        display: block;
-    }
-
-    ul {
+    .nav-links ul {
         flex-direction: column;
         gap: 0;
         width: 100%;
     }
 
-    li {
+    .nav-links li {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    li a {
+    .nav-links li a {
         display: block;
         padding: 10px;
         font-size: 14px;
@@ -978,32 +971,23 @@ p {
         transition: max-height 0.5s ease;
     }
 
-    /* The checkbox hack - when checked, display menu */
     .nav-toggle:checked ~ .nav-links {
         max-height: 500px;
     }
 
-    .nav-links {
-        display: none;
-    }
-
-    .nav-toggle:checked ~ .nav-links {
-        display: block;
-    }
-
-    ul {
+    .nav-links ul {
         flex-direction: column;
         gap: 0;
         width: 100%;
     }
 
-    li {
+    .nav-links li {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    li a {
+    .nav-links li a {
         display: block;
         padding: 12px;
         font-size: 15px;
@@ -1252,27 +1236,25 @@ p {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.5s ease;
-        display: none;
     }
 
     .nav-toggle:checked ~ .nav-links {
         max-height: 500px;
-        display: block;
     }
 
-    ul {
+    .nav-links ul {
         flex-direction: column;
         gap: 0;
         width: 100%;
     }
 
-    li {
+    .nav-links li {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    li a {
+    .nav-links li a {
         display: block;
         font-size: 16px;
         padding: 14px;
@@ -1452,6 +1434,7 @@ p {
     .contact-form h2 {
         font-size: 28px;
     }
+
     /*Goals Section*/
     .goal-container {
         flex-direction: column;
@@ -1496,27 +1479,25 @@ p {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.5s ease;
-        display: none;
     }
 
     .nav-toggle:checked ~ .nav-links {
         max-height: 500px;
-        display: block;
     }
 
-    ul {
+    .nav-links ul {
         flex-direction: column;
         gap: 0;
         width: 100%;
     }
 
-    li {
+    .nav-links li {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    li a {
+    .nav-links li a {
         display: block;
         font-size: 16px;
         padding: 14px;
@@ -1741,27 +1722,25 @@ p {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.5s ease;
-        display: none;
     }
 
     .nav-toggle:checked ~ .nav-links {
         max-height: 500px;
-        display: block;
     }
 
-    ul {
+    .nav-links ul {
         flex-direction: column;
         gap: 0;
         width: 100%;
     }
 
-    li {
+    .nav-links li {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    li a {
+    .nav-links li a {
         display: block;
         font-size: 16px;
         padding: 14px;
