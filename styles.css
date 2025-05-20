@@ -31,28 +31,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-li a {
-    color: var(--text-primary);
-    font-size: 18px;
-    font-weight: 600;
-    padding: 15px;
-}
-
-li a:hover {
-    background: var(--primary-bg);
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 10px;
-}
-
 .nav-toggle {
     display: none;
 }
@@ -66,6 +44,33 @@ li a:hover {
     position: absolute;
     left: 10px;
     top: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.nav-links li a:hover {
+    background: var(--primary-bg);
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 /*--------Style for Home Section-------------*/
